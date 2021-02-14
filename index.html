@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img id="illbox" src="./images/illustration-box-desktop.svg" alt="" />
+      <div class="card">
+        <div class="row">
+          <div id="col1" class="col-md-6">
+            <div class="card-img">
+              <img
+                id="women"
+                src="./images/illustration-woman-online-desktop.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div id="col2" class="col-md-5">
+            <div id="faq">
+              <h1>FAQ</h1>
+              <button data-toggle="collapse" data-target="#answer1">
+                How many team members can I invite?
+                <img src="./images/icon-arrow-down.svg" alt="" />
+              </button>
+
+              <p id="answer1" class="collapse" data-parent="#faq">
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+              <hr />
+              <button data-toggle="collapse" data-target="#answer2">
+                What is the maximum file upload size?
+
+                <img src="./images/icon-arrow-down.svg" alt="" />
+              </button>
+
+              <p id="answer2" class="collapse" data-parent="#faq">
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </p>
+              <hr />
+              <button data-toggle="collapse" data-target="#answer3">
+                How do I reset my password?
+                <img src="./images/icon-arrow-down.svg" alt="" />
+              </button>
+
+              <p id="answer3" class="collapse" data-parent="#faq">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </p>
+              <hr />
+              <button data-toggle="collapse" data-target="#answer4">
+                Can I cancel my subscription?
+                <img src="./images/icon-arrow-down.svg" alt="" />
+              </button>
+
+              <p id="answer4" class="collapse" data-parent="#faq">
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </p>
+              <hr />
+              <button data-toggle="collapse" data-target="#answer5">
+                Do you provide additional support?
+                <img src="./images/icon-arrow-down.svg" alt="" />
+              </button>
+
+              <p id="answer5" class="collapse" data-parent="#faq">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </p>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
+
+<!-- 
+  How many team members can I invite?
+  You can invite up to 2 additional users on the Free plan. There is no limit on 
+  team members for the Premium plan.
+
+  What is the maximum file upload size?
+  No more than 2GB. All files in your account must fit your allotted storage space.
+
+  How do I reset my password?
+  Click “Forgot password” from the login page or “Change password” from your profile page.
+  A reset link will be emailed to you.
+
+  Can I cancel my subscription?
+  Yes! Send us a message and we’ll process your request no questions asked.
+
+  Do you provide additional support?
+  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->

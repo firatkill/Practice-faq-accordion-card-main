@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to bottom,
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
+  height: 93vh;
+}
+.container {
+  padding: 0;
+
+  margin-top: 4rem;
+}
+.card {
+  border-radius: 30px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 1px 1px 1;
+}
+#col2 {
+  padding-left: 4rem;
+  height: 100%;
+  display: block;
+}
+#col2 #faq {
+}
+#col2 h1 {
+  font-weight: 700;
+  padding-bottom: 2rem;
+  padding-left: 0.6rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+#faq button {
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  font-size: 1.3rem;
+}
+#faq button:focus {
+  font-weight: 600;
+}
+#faq p {
+  padding-left: 0.5rem;
+  padding-top: 0.1rem;
+  opacity: 0.8;
+}
+#faq button #faq button img {
+  display: inline;
+}
+#col1 {
+  background-image: url(./images/bg-pattern-desktop.svg);
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position-x: -255px;
+  background-position-y: -70px;
+}
+.card-img img {
+  opacity: 1;
+}
+.card-img {
+  height: 46rem;
+}
+#women {
+  position: relative;
+  width: 90%;
+  margin-top: 75px;
+  margin-left: -90px;
+}
+#illbox {
+  position: absolute;
+  z-index: 5;
+  left: 15px;
+  top: 275px;
+}
